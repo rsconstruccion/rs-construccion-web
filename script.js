@@ -1,0 +1,1 @@
+document.querySelectorAll('.galeria a').forEach(a=>a.onclick=e=>{e.preventDefault();window.open(a.href,'_blank');});
